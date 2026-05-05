@@ -1,6 +1,6 @@
 package welcome;
 import java.util.Scanner;
-public class Clesius {
+public class CelsiusConverter {
 	public static void main(String[]args) {
 		Scanner input=new Scanner(System.in);
 		System .out .println("enter the value of fhrenheit");
