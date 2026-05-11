@@ -1,4 +1,4 @@
-public class The Random Insight Engine {
+public class NumBox {
 
 	public static void main (String[]args) {
 		
@@ -6,12 +6,12 @@ public class The Random Insight Engine {
 		int x[] =new int [N];
 				int i;
 				
-			for ( i=0;i<x.length;i++) { 
+			for ( i=0 ; i<x.length ; i++) { 
 				x[i]=1+(int)(Math.random()*100);
 				 	
 			}
 			int sum=0;
-			for ( i=0;i<x.length;i++) {
+			for ( i=0 ; i<x.length ; i++) {
 				
 				 sum =sum + x[i];
 				
